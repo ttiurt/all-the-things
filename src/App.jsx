@@ -112,6 +112,15 @@ const App = () => {
     },
   ]
 
+  const andrewsThings = [
+    {
+      name: "dog",
+      image: "https://www.allthingsdogs.com/wp-content/uploads/2020/07/a-photo-of-a-cute-chocolate-labrador-with-head-tilted.jpg",  
+      attributes: ["smelly", "hungry", "slobbery"],
+    },
+  ]
+
+
   return (
     <Routes>
       {/* All the <Route> components should live here */}
