@@ -104,6 +104,14 @@ const App = () => {
     },
   ]
 
+  const zachsThings = [
+    {
+      name: "inventory",
+      image: "https://esportfire.com/assets/images/article_images/0202202_Pic8_neu-min.jpg",  
+      attributes: ["expensive", "cool", "investment"],
+    },
+  ]
+
   return (
     <Routes>
       {/* All the <Route> components should live here */}
