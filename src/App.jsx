@@ -62,6 +62,36 @@ const App = () => {
     },
   ]
 
+  const juliansThings = [
+    {
+      name: 'sandwiches',
+      image:
+        'https://images.unsplash.com/photo-1587132137056-bfbf0166836e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60',
+      attributes: [
+        'bread',
+        'chicken fingers',
+        'cheese,
+        'lettuce',
+      ],
+    },
+    {
+      name: 'dog',
+      image:
+        'https://images.unsplash.com/photo-1545093149-618ce3bcf49d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1234&q=80',
+      attributes: [
+        'woof',
+        'ears',
+        'paws',
+        'socks',
+      ],
+    },
+    {
+      name: 'macOS',
+      image: 'https://i.imgur.com/3BmfSOA.png',
+      attributes: ['not a taco', 'not Windows', 'not linux', 'Penguins?'],
+    },
+  ]
+
   return (
     <Routes>
       {/* All the <Route> components should live here */}
